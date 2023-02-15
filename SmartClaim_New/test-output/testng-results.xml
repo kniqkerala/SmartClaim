@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2023-02-14T10:41:10 GMT" name="Default suite" finished-at="2023-02-14T10:42:27 GMT" duration-ms="76574">
+    <groups>
+    </groups>
+    <test started-at="2023-02-14T10:41:10 GMT" name="Default test" finished-at="2023-02-14T10:42:27 GMT" duration-ms="76574">
+      <class name="com.smartclaims.testCases.TC_LiabilityDecisionOutstanding">
+        <test-method is-config="true" signature="beforeTest()[pri:0, instance:com.smartclaims.testCases.TC_LiabilityDecisionOutstanding@43195e57]" started-at="2023-02-14T10:41:11 GMT" name="beforeTest" finished-at="2023-02-14T10:41:12 GMT" duration-ms="1803" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeTest -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.smartclaims.testCases.TC_LiabilityDecisionOutstanding@43195e57]" started-at="2023-02-14T10:41:12 GMT" name="setup" finished-at="2023-02-14T10:41:18 GMT" duration-ms="5551" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="liabilityDecisionOutstanding(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:1, instance:com.smartclaims.testCases.TC_LiabilityDecisionOutstanding@43195e57]" started-at="2023-02-14T10:41:20 GMT" name="liabilityDecisionOutstanding" data-provider="ClaimDetails" finished-at="2023-02-14T10:42:27 GMT" duration-ms="66719" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[17/01/2023]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[QA LDO]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[QA LDO]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[QA LDO]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[ST Lia Dec Outstanding ]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- liabilityDecisionOutstanding -->
+        <test-method is-config="true" signature="getResult(org.testng.ITestResult)[pri:0, instance:com.smartclaims.testCases.TC_LiabilityDecisionOutstanding@43195e57]" started-at="2023-02-14T10:42:27 GMT" name="getResult" finished-at="2023-02-14T10:42:27 GMT" duration-ms="23" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=liabilityDecisionOutstanding status=SUCCESS method=TC_LiabilityDecisionOutstanding.liabilityDecisionOutstanding(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:1, instance:com.smartclaims.testCases.TC_LiabilityDecisionOutstanding@43195e57] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.smartclaims.testCases.TC_LiabilityDecisionOutstanding@43195e57]" started-at="2023-02-14T10:42:27 GMT" name="tearDown" finished-at="2023-02-14T10:42:27 GMT" duration-ms="105" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="tearDownExtent()[pri:0, instance:com.smartclaims.testCases.TC_LiabilityDecisionOutstanding@43195e57]" started-at="2023-02-14T10:42:27 GMT" name="tearDownExtent" finished-at="2023-02-14T10:42:31 GMT" duration-ms="3917" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownExtent -->
+      </class> <!-- com.smartclaims.testCases.TC_LiabilityDecisionOutstanding -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
